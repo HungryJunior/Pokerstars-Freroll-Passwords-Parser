@@ -1,0 +1,32 @@
+body {
+    margin-top: 60px;
+}
+.container{
+    margin-top: 60px;
+}
+span#club {
+    color: blue;
+}
+span#heart {
+    color: red;
+}
+span#spade {
+    color: green;
+}
+span#diamond {
+    color: orange;
+}
+
+tr {
+    text-align: center;
+}
+th {
+    text-align: center !important;
+}
+span {
+    margin: 10px;
+}
+span#date {
+    float: right;
+    margin: 0 !important;
+}

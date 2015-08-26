@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "curl/curl": "1.2.1",
+    "olamedia/nokogiri": "1.0",
+    "4nd/smarty": "v3.1.18"
+  }
+}

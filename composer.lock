@@ -1,0 +1,167 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2ba74fa55b77b845b0a9b4b36e4f8834",
+    "packages": [
+        {
+            "name": "4nd/smarty",
+            "version": "v3.1.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/4nd/Smarty.git",
+                "reference": "c5682f1dafbc442913ca946114a051eed372c1b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/4nd/Smarty/zipball/c5682f1dafbc442913ca946114a051eed372c1b5",
+                "reference": "c5682f1dafbc442913ca946114a051eed372c1b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "distribution/libs/Smarty.class.php",
+                    "distribution/libs/SmartyBC.class.php",
+                    "distribution/libs/sysplugins/smarty_security.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2014-04-07 21:22:04"
+        },
+        {
+            "name": "curl/curl",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-mod/curl.git",
+                "reference": "67f7c490060751fbf24a02bc1ff3b32073aeb5e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-mod/curl/zipball/67f7c490060751fbf24a02bc1ff3b32073aeb5e0",
+                "reference": "67f7c490060751fbf24a02bc1ff3b32073aeb5e0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "~2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Curl": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hassan Amouhzi",
+                    "email": "hassan@anezi.net",
+                    "homepage": "http://hassan.amouhzi.com"
+                },
+                {
+                    "name": "php-curl-class",
+                    "homepage": "https://github.com/php-curl-class"
+                },
+                {
+                    "name": "user52",
+                    "homepage": "https://github.com/user52"
+                }
+            ],
+            "description": "cURL class for PHP",
+            "homepage": "https://github.com/php-mod/curl",
+            "keywords": [
+                "curl",
+                "dot"
+            ],
+            "time": "2015-04-09 16:29:25"
+        },
+        {
+            "name": "olamedia/nokogiri",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/olamedia/nokogiri.git",
+                "reference": "d9c942a60a2b397eaea3c902a03e45c8010f4e48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/olamedia/nokogiri/zipball/d9c942a60a2b397eaea3c902a03e45c8010f4e48",
+                "reference": "d9c942a60a2b397eaea3c902a03e45c8010f4e48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "nokogiri.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "olamedia",
+                    "email": "olamedia@gmail.com",
+                    "homepage": "http://github.com/olamedia",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HTML Parser",
+            "homepage": "http://github.com/olamedia/nokogiri",
+            "keywords": [
+                "html",
+                "parse",
+                "parser"
+            ],
+            "time": "2015-05-19 18:39:31"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
